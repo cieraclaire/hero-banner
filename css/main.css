@@ -1,0 +1,32 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.img-flex {
+  display: block;
+  width: 100%
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+	font-size: 4rem;
+}
+
+h2 {
+	font-family: "Open Sans", serif;
+	font-style: italic;
+	font-size: 2rem;
+}
+
+body {
+}
+
+img {
+	position: relative;
+	bottom: 500px;
+
+}
