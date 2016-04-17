@@ -1,43 +1,56 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
-}
-
-h2 {
-	font-family: "Open Sans", sans-serif;
-	font-size: 4rem;
-}
-
-p {
-	font-family: "Open Sans", serif;
-	font-size: 2rem;
-	font-style: italic;
+  box-sizing: inherit;
 }
 
 body {
-	margin: 0;
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 .banner {
-	position: relative;
-	text-align: center;
+  overflow: hidden;
+  max-height: 500px;
+  margin: 0;
+  position: relative;
 }
 
-.banner-content {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+.card-title {
+  max-width: 100%;
+  margin: 0;
+  font-size: 4rem;
+  font-style: normal;
+  color: white;
+  line-height: 1.4;
 }
 
-.banner img {
-	width: 100%;
+.card-body {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  max-width: 45rem;
+  width: 100%;
+  font-style: italic;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0 1rem;
+  transform: translateX(-50%);
 }
 
-.banner-content h2,
-.banner-content p {
-	margin: 0;
+span {
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  margin: 1.2rem;
 }
